@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="iinic">Início: </label>
+                <input type="number" name="inic" id="iinic">
+            </p>
+            <br>
+            <p>
+                <label for="ifim">Fim: </label>
+                <input type="number" name="fim" id="ifim">
+            </p>
+            <br>
+            <p>
+                <label for="ipas">Passo: </label>
+                <input type="number" name="pas" id="ipas">
+            </p>
+            <br>
+            <input type="button" value="Contar" onclick="calcular()">
+        </div>
+<br>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
