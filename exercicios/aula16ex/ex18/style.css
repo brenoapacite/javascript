@@ -20,6 +20,9 @@ section{
     margin: 50px auto;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.300);
 }
+#res > p{
+    padding: 10px;
+}
 select{
     width: 150px;
     height: 150px;
